@@ -9,7 +9,7 @@ function Layout() {
             <Link to='/home'>Home</Link>
             <Link to='/counter'>Counter</Link>
         </nav>
-        <Outlet/>
+        {/* <Outlet/> */}
     </div>
   )
 }

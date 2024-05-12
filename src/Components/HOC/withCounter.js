@@ -16,7 +16,7 @@ export default function withCounter(Comp, initial, dest) {
             }
         }
         return(
-            <Comp handleClick={handleClick} count={count} currentDest={currentDest}/>
+            <Comp handleClick={handleClick} count={count}/>
         )
     }
     
